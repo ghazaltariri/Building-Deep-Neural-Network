@@ -1,8 +1,10 @@
 # Building-Deep-Neural-Network
 I will use two activation functions:
 
-### Sigmoid
-### ReLU
+### Sigmoid: ![imag] (https://latex.codecogs.com/svg.latex?%5Csigma%28Z%29%3D%5Csigma%28WA%2Bb%29%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28WA%2Bb%29%7D%7D)
+This function returns two items: the activation value "a" and a "cache" that contains "Z" 
+
+### ReLU: The mathematical formula for ReLu is $A = RELU(Z) = max(0, Z)$
 
 Building NN from scratch: 
 These are the different methods for building NN:
@@ -20,4 +22,3 @@ After initialization, we will do the forward propagation module by implementing 
 -Linear
 -Linear -> Activation where Activation will be either ReLU or Sigmoid
 -[Linear-> Relu] X (L-1) -> Linear -> Sigmoid
-
