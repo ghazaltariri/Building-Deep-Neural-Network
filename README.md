@@ -1,7 +1,7 @@
 # Building-Deep-Neural-Network
 I will use two activation functions:
 
-### Sigmoid: ![imag] (https://latex.codecogs.com/svg.latex?%5Csigma%28Z%29%3D%5Csigma%28WA%2Bb%29%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28WA%2Bb%29%7D%7D)
+### Sigmoid: ![alt text](https://latex.codecogs.com/svg.latex?%5Csigma%28Z%29%3D%5Csigma%28WA%2Bb%29%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28WA%2Bb%29%7D%7D)
 This function returns two items: the activation value "a" and a "cache" that contains "Z" 
 
 ### ReLU: The mathematical formula for ReLu is $A = RELU(Z) = max(0, Z)$
